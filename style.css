@@ -1,0 +1,76 @@
+/*styling.css*/
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url(img/pexels-photo-268533.jpeg) center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    display: block;
+}
+
+/*title*/
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+
+/*Lap*/
+#lap{
+    text-align: center;
+    font-size: 4vw;
+}
+
+/*Time*/
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+/*Buttons*/
+#controlsContainer{
+    margin-bottom: 100px;   
+}
+
+.control{
+    color: white;
+    background-color: #F36621;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 2% ;
+    font-size: 25px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.control:active{
+    background-color: #fff;
+    color: #F36621;
+    
+}
+
+/*laps*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+}
+
